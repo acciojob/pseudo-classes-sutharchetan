@@ -1,1 +1,10 @@
-/*  your css code here. If applicable */
+:root{
+	--background-color: rgb(135, 206, 235);
+}
+body{
+	background-color: var(--background-color)
+}
+p:first-child{
+	color: white;
+	background-color: solid black;
+}
